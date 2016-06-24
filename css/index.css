@@ -1,0 +1,165 @@
+body{
+	margin:0;padding: 0;
+}
+
+ul,li{
+	
+	list-style: none
+}
+#canvas{
+	cursor: pointer;
+	position: absolute;
+	left: 435px;
+	top: 30px;
+	border: 1px solid black;
+}
+.list{
+	height: 655px;
+	width: 200px;
+	background: #ccc;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.list ul{
+	color: white
+}
+.active{
+   color: red;
+	font-size:25px;
+}
+.fill{
+	position: absolute;
+	top:360px;
+	left: 50px;
+	border-bottom: 2px solid white;
+}
+.fill span{
+	color:black
+}
+.stroke{
+	position: absolute;
+	top:320px;
+	left: 50px;
+}
+.lineWidth{
+	border-bottom: 2px solid white;
+	margin-bottom: 20px;
+}
+.stroke span{
+	color:black;
+}
+
+.img{
+	display: block;
+	width:30px;
+	height:30px;
+	margin-top: 10px;
+	border:1px solid black;
+}
+.fill img{
+	width: 30px;
+	height: 30px;
+}
+.stroke img{
+	width: 30px;
+	height: 30px;
+}
+.logo img:first-child{
+	margin-top: 20px;
+	height: 40px;
+	width: 40px;
+}
+.tools{
+	position:absolute;
+	right:30px;
+	top:80px;
+}
+.setting{
+	background-image: url(../image/t01d35948019d3f8f4e.jpg);
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	width:130px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+	bottom: 100px;
+	left: 20px;
+}
+.line_width{
+	color: black;
+	background-image: url(../image/t01d35948019d3f8f4e.jpg);
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	width:100px;
+	height: 30px;
+	border: 1px solid black;
+	position: absolute;
+	bottom:200px;
+	left: 20px;
+
+}
+.line{
+	position: absolute;
+	bottom: 160px;
+	left: 20px;
+}
+.one_po{
+	position: absolute;
+bottom:60px;
+left: 20px;
+}
+.two_po{
+	position: absolute;
+bottom:30px;
+left: 20px;
+}
+.new{
+	position: absolute;
+	bottom: 10px;
+	left:240px;
+	color: black;
+	background-image: url(../image/t01d35948019d3f8f4e.jpg);
+	border-radius: 5px;
+	background-position: 60% 20%;
+	text-align: center;
+	width:40px;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid black;
+}
+.save{
+	position: absolute;
+	bottom: 10px;
+	left:290px;
+	color: black;
+	background-image: url(../image/t01d35948019d3f8f4e.jpg);
+	border-radius: 5px;
+	background-position: 60% 20%;
+	text-align: center;
+	width:40px;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid black;
+}
+.back{
+	position: absolute;
+	bottom: 10px;
+	left:340px;
+	color: black;
+	background-image: url(../image/t01d35948019d3f8f4e.jpg);
+	border-radius: 5px;
+	background-position: 60% 20%;
+	text-align: center;
+	width:40px;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid black;
+}
+
+
